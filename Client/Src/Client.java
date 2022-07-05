@@ -97,7 +97,7 @@ public class Client {
                     try {
                         /*Realizamos la lectura del archivo seleccionado */
                         FileInputStream archivoRecibido = new FileInputStream(_archivoEnviar[0].getAbsolutePath());
-                        /*Inicializamos el socket desde el puerto 5003 */
+                        /*Inicializamos el socket desde el puerto 5003  */
                         Socket socket = new Socket("localhost", 5003);
                         /*Permitiremos escribir los datos en un archivo de salida */
                         DataOutputStream archivoSalida = new DataOutputStream(socket.getOutputStream());

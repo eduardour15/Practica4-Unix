@@ -1,0 +1,33 @@
+Crear un folder
+laravel new example-app
+Abrir la carpeta
+cd example-app
+Iniciar el servidor
+php artisan serve
+
+Crear nuevo controlador
+php artisan make:controller nombreControlador
+
+Levantar xampp
+sudo /opt/lampp/lampp start
+
+Crear un nuevo archivo de tipo migracion
+hp artisan make:migration persona
+
+Crear migracion
+php artisan migrate
+
+Deshacer migración
+php artisan migrate:reset
+
+Deshacer migracion y volver a migrar
+consola php artisan migrate:refresh
+
+Para creación de seeder
+php artisan make:seeder PersonaSeeder
+
+Ejecutar el seeder
+php artisan db:seed
+
+xdg-open ./Documentos
+
